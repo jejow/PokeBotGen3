@@ -38,7 +38,7 @@ Note: `brew` requires [Homebrew](https://brew.sh/) to be installed.
 
 ### Stable Releases
 
-Visit the [releases](https://github.com/40Cakes/pokebot-gen3/releases) page for the latest stable releases, download the **pokebot-DATE.zip** file.
+Visit the [main repo](https://github.com/jejow/PokeBotV1.git) page for the latest version, download the **file**.
 
 The bot has an auto-updater that will check for new stable releases, once a day.
 
@@ -53,7 +53,7 @@ Alternatively, if you'd like to be able to easily pull the latest dev releases, 
 
 - Install [GitHub Desktop](https://desktop.github.com/) (you don't need an account)
 - Click **Clone a repository from the Internet...**
-- Use repository URL `https://github.com/40Cakes/pokebot-gen3.git` and choose a save location on your PC
+- Use repository URL `https://github.com/jejow/PokeBotV1.git` and choose a save location on your PC
 - Click **Clone**
 - Any time there's a new update, you can pull the latest changes by clicking **Fetch origin**, then **Pull origin**
 
