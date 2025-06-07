@@ -1,13 +1,8 @@
 # PokéBot Gen3 (libmgba)
 [![Wiki](wiki/images/badge_wiki.svg)](wiki/Readme.md) [![Python 3.12](wiki/images/badge_python.svg)](https://www.python.org/downloads/release/python-3132/) [![Code Formatting](wiki/images/badge_black.svg)](https://github.com/psf/black)
 
-[![Discord](wiki/images/badge_discord.svg)](https://discord.com/invite/UtxR3cazUa) [![YouTube](wiki/images/badge_youtube.svg)](https://www.youtube.com/@40_Cakes/streams)
 
 **PokéBot Gen3** is a shiny hunting bot, written in Python that runs `libmgba` + mGBA Python bindings under the hood. Pokémon Ruby, Sapphire, Emerald, FireRed and LeafGreen are supported. 
-
-Initially created to complete a Prof. Oak and Living ✨Shiny✨ Dex Challenge in Pokémon Emerald, a 24/7 livestream of the challenge can be found ongoing [here](https://www.youtube.com/watch?v=W6OOnrx8g58).
-
-[![🔴24/7✨Shiny✨Hunting Bot](https://img.youtube.com/vi/W6OOnrx8g58/0.jpg)](https://www.youtube.com/watch?v=W6OOnrx8g58)
 
 # ❓ Getting Started
 
