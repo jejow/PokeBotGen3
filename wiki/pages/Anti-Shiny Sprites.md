@@ -1,4 +1,4 @@
-🏠 [`pokebot-gen3` Wiki Home](../Readme.md)
+🏠 [`pokebotv1` Wiki Home](../Readme.md)
 
 # 💀 Anti Shiny Sprites
 
