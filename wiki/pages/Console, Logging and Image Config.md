@@ -36,7 +36,6 @@ The Pokémon are dumped to the `./profile/<profile_name>/stats/pokemon/` folder,
 Feel free to share any rare/interesting .pk3 files in [#pkhexchange💱](https://discord.com/channels/1057088810950860850/1123523909745135616)!
 
 ## Shiny GIFs
-Capture and save a GIF of shiny encounters, example GIF below. If shiny [Discord webhooks](Configuration%20-%20Discord%20Integration.md) are enabled, the GIF will also be added to the webhook!
 
 Shiny GIFs are saved to the `./profile/<profile_name>/screenshots/gif/` folder.
 
