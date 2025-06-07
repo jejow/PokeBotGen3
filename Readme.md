@@ -1,4 +1,4 @@
-# PokéBot Gen3 (libmgba)
+# PokéBot V1
 [![Wiki](wiki/images/badge_wiki.svg)](wiki/Readme.md) [![Python 3.12](wiki/images/badge_python.svg)](https://www.python.org/downloads/release/python-3132/) [![Code Formatting](wiki/images/badge_black.svg)](https://github.com/psf/black)
 
 
