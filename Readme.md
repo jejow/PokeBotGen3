@@ -32,14 +32,6 @@ The bot is frame perfect and can _technically_ cheat by reading data from any po
 |---------------------------------|
 | ![image](wiki/images/shiny.gif) |
 
-|             Discord shiny notifications              |              Discord phase stats              |              Discord milestones              |
-|:----------------------------------------------------:|:---------------------------------------------:|:--------------------------------------------:|
-| ![image](wiki/images/discord_shiny_notification.png) | ![image](wiki/images/discord_phase_stats.png) | ![image](wiki/images/discord_milestones.png) |
-
-| Automatically saves PKHeX .pk3 file | HTTP API                           |
-|-------------------------------------|------------------------------------|
-| ![image](wiki/images/pk3_files.png) | ![image](wiki/images/http_api.png) |
-
 # ❤ Attributions
 
 Core functionality:
