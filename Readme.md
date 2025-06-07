@@ -57,6 +57,3 @@ Decompiled symbol tables and other various data from the following projects:
 - [Pokémon Ruby and Sapphire decompilation](https://github.com/pret/pokeruby) ([symbols](https://github.com/pret/pokeruby/tree/symbols))
 - [Pokémon FireRed and LeafGreen decompilation](https://github.com/pret/pokefirered) ([symbols](https://github.com/pret/pokefirered/tree/symbols))
 
-Test save states and bot profiles:
-
-- [Johnnie's PokéBot-Profiles](https://github.com/johnnieb333/Pokebot-Profiles)
