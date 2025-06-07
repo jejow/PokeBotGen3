@@ -1,10 +1,6 @@
-Welcome to the [`pokebot-gen3`](https://github.com/40Cakes/pokebot-gen3) wiki!
+Welcome to the [`pokebotv1`](https://github.com/jejow/PokeBotV1.git) wiki!
 
-[Report an issue](pages/Report%20an%20Issue.md) or [raise a pull request](https://github.com/40Cakes/pokebot-gen3/pulls) if you find any missing/incorrect information in these docs.
-
-For quick help and support, reach out in Discord [#pokebot-gen3-support❔](https://discord.com/channels/1057088810950860850/1139190426834833528)
-
-[![Discord](images/badge_discord.svg)](https://discord.com/invite/UtxR3cazUa)
+[Report an issue](pages/Report%20an%20Issue.md) or [raise a pull request](https://github.com/jejow/PokeBotV1/pulls) if you find any missing/incorrect information in these docs.
 
 ### General
 - ❓ [Getting Started](pages/Getting%20Started.md)
