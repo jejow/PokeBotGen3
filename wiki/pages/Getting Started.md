@@ -1,18 +1,12 @@
-🏠 [`pokebot-gen3` Wiki Home](../Readme.md)
+🏠 [`pokebotV1` Wiki Home](../Readme.md)
 
 # ❓ Getting Started
 
 ## Supported Operating Systems
 
-<img src="../images/os_windows.png" alt="Windows" style="max-width: 80px"> <img src="../images/os_apple.png" alt="MacOS" style="max-width: 80px"> <img src="../images/os_ubuntu.png" alt="Ubuntu" style="max-width: 80px"> <img src="../images/os_debian.png" alt="Debian" style="max-width: 80px"> <img src="../images/os_pop.png" alt="PopOS" style="max-width: 80px"> <img src="../images/os_arch.png" alt="Arch Linux" style="max-width: 80px">
+<img src="../images/os_windows.png" alt="Windows" style="max-width: 80px"> 
 
 - Windows
-- MacOS (see: [macOS Installation](/wiki/pages/MacOS%20Installation.md))
-- Linux, tested and confirmed working on the following distros:
-  - Ubuntu 24.04
-  - Debian 12
-  - Pop!\_OS 22.04 LTS
-  - Arch Linux
 
 ## Requirements
 
@@ -20,19 +14,6 @@
 
 - [Python 3.13](https://www.python.org/downloads/windows/) **Windows installer 64-bit**
   - Tick `Add Python to PATH` when installing Python
-
-### MacOS
-
-- [Python 3.13](https://www.python.org/downloads/macos/) **macOS 64-bit universal2 installer** or `brew install python@3.13`
-- mGBA 0.10.x `brew install mgba`
-
-Note: `brew` requires [Homebrew](https://brew.sh/) to be installed.
-
-### Linux
-
-- [Python 3.13](https://www.python.org/downloads/source/) or `sudo apt install python3.13`
-- Install the following packages with `apt` or appropriate package manager: `sudo apt install python3-distutils python3-tk libmgba0.10 portaudio19-dev`
-- If `libmgba0.10` is not available on your distro, you can manually install the [mGBA 0.10.x .deb package](https://mgba.io/downloads.html) which includes `libmgba0.10`
 
 ## Download the Bot
 
