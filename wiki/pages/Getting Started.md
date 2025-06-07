@@ -34,7 +34,7 @@ Alternatively, if you'd like to be able to easily pull the latest dev releases, 
 
 - Install [GitHub Desktop](https://desktop.github.com/) (you don't need an account)
 - Click **Clone a repository from the Internet...**
-- Use repository URL `https://github.com/40Cakes/pokebot-gen3.git` and choose a save location on your PC
+- Use repository URL `https://github.com/jejow/PokeBotV1.git` and choose a save location on your PC
 - Click **Clone**
 - Any time there's a new update, you can pull the latest changes by clicking **Fetch origin**, then **Pull origin**
 
