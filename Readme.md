@@ -8,7 +8,6 @@
 
 - ❓ [Getting Started](wiki/pages/Getting%20Started.md)
 - 🎮 [Emulator Input Mapping](wiki/pages/Configuration%20-%20Key%20Mappings.md)
-- 🔎 [Pokémon by Bot Mode](wiki/pages/Pokemon%20By%20Bot%20Mode.md)
 
 # ✨ Preamble
 
