@@ -1,0 +1,376 @@
+---
+#--------------------------------#
+#    Overworld / Util Symbols    #
+#--------------------------------#
+CB2_OVERWORLD:
+  J: 0x8051618
+# Door exit
+sub_8080B9C:
+  J: 0x807da78
+Task_HandleYesNoInput:
+  J: 0x80b0b4c
+Task_FieldMessageBox:
+  J: 0x8061c2c
+# 0x7
+Std_MsgboxDefault:
+  J: 0x817f404
+# 0x9
+Std_MsgboxYesNo:
+  J: 0x817f40c
+WaitForAorBPress:
+  J: 0x8064401
+Task_DuckBGMForPokemonCry:
+  J: 0x8072440
+CB2_FlyRegionMap:
+  J: 0x80f71b0
+gMain:
+  J: 0x30016e0
+gFieldMessageBoxWindow:
+  J: 0x202e5d4
+sScriptContext1:
+  J: 0x3000520
+sScriptContext2:
+  J: 0x30005a0
+#-------------------------------#
+
+#--------------------#
+#    Map Symbols     #
+#--------------------#
+gMapGroups:
+  J: 0x82e09f0
+gRegionMapEntries:
+  J: 0x83bef6c
+gWildMonHeaders:
+  J: 0x8379304
+sTileBitAttributes:
+  J: 0x82e1294
+gObjectEvents:
+  J: 0x30047d0
+gPlayerPartyCount:
+  J: 0x3004280
+gPlayerParty:
+  J: 0x3004290
+gMapHeader:
+  J: 0x202e588
+gPlayerAvatar:
+  J: 0x202e5b8
+gRegionMap:
+  J: 0x20385C4
+gSaveBlock1:
+  J: 0x2025494
+gSaveBlock2:
+  J: 0x2024c04
+#----------------#
+
+#-----------------#
+#    Main Menu    #
+#-----------------#
+CB2_InitCopyrightScreenAfterBootup:
+  J: 0x813668c
+MainCB2_Intro:
+  J: 0x813634c
+CB2_InitTitleScreen:
+  J: 0x80790c4
+MainCB2:
+  J: 0x8079418
+CB2_MainMenu:
+  J: 0x8006cd0
+CB2_ReturnToFieldLocal:
+  J: 0x8051880
+#-----------------#
+
+#---------------------------#
+#    SSR/SRA/SGR/Roamers    #
+#---------------------------#
+gRngValue:
+  J: 0x3004748
+# Fly
+Task_MapNamePopup:
+  J: 0x809f568
+CB2_LoadMap:
+  J: 0x8051750
+Task_BattleStart:
+  J: 0x807e838
+SummaryScreenHandleKeyInput:
+  J: 0x809aad8
+#--------------------#
+#  Battling Symbols  #
+#--------------------#
+BattleMainCB1:
+  J: 0x800db30
+BattleMainCB2:
+  J: 0x800cb38
+gBattleMainFunc:
+  J: 0x3004204
+gBattleResults:
+  J: 0x3004210
+gBattlerControllerFuncs:
+  J: 0x3004260
+gBattlescriptCurrInstr:
+  J: 0x2024970
+GTASKS:
+  J: 0x3004a50
+gWindowTemplate_Contest_MoveDescription:
+  J: 0x3004160
+gEnemyParty:
+  J: 0x30044f0
+gBattleTypeFlags:
+  J: 0x2023758
+gBattlersCount:
+  J: 0x20247c8
+gSideTimers:
+  J: 0x20249e0
+gStatuses3:
+  J: 0x20249f8
+gBattlerPartyIndexes:
+  J: 0x20247ca
+gBattleMons:
+  J: 0x20247e0
+gDisableStructs:
+  J: 0x2024a08
+gAbsentBattlerFlags:
+  J: 0x202496c
+gBattleWeather:
+  J: 0x2024b18
+gBattleOutcome:
+  J: 0x2024a86
+gBattlePartyCurrentOrder:
+  J: 0x203818c
+# Turn selection
+sub_8012324:
+  J: 0x800f630
+sub_802C098:
+  J: 0x8029320
+HandleAction_ChooseMove:
+  J: 0x80298fd
+# Turn selection Safari
+bx_battle_menu_t6_2:
+  J: 0x8126310
+HandleEndTurn_FinishBattle:
+  J: 0x8010fa4
+BattleScript_HandleFaintedMon:
+  J: 0x81a9713
+BattleScript_FaintedMonEnd:
+  J: 0x81a981e
+CB2_WhiteOut:
+  J: 0x80516dc
+gActionSelectionCursor:
+  J: 0x2024bc0
+gMoveSelectionCursor:
+  J: 0x2024bc4
+# Replace move
+BattleScript_AskToLearnMove:
+  J: 0x81a99b1
+BattleScript_ForgotAndLearnedNewMove:
+  J: 0x81a99de
+sub_809E260:
+  J: 0x809ab9c
+CB2_EvolutionSceneUpdate:
+  J: 0x810d168
+Task_EvolutionScene:
+  J: 0x810d304
+RunBattleScriptCommands_PopCallbacksStack:
+  J: 0x801125c
+#--------------------#
+
+#----------------#
+#  Daycare Mode  #
+#----------------#
+S_EggHatch:
+  J: 0x818bee4
+# EggHatch party identification
+gSpecialVar_0x8004:
+  J: 0x202e620
+Task_Fanfare:
+  J: 0x8071f50
+#----------------#
+
+#-------------------------#
+#    PC Menu / Storage    #
+#-------------------------#
+Task_PokemonStorageSystem:
+  J: 0x8092a14
+Task_HandleMultichoiceInput:
+  J: 0x80b0928
+SUB_8096B38:
+  J: 0x809363c
+gPokemonStorage:
+  J: 0x202fdbc
+#-------------------------#
+
+#--------------#
+#   Bag Menu   #
+#--------------#
+sub_80A3118:
+  J: 0x809f6dc
+sCurrentBagPocket:
+  J: 0x2038258
+gBagPocketScrollStates:
+  J: 0x3005c30
+sub_80A5414:
+  J: 0x80a15d4
+gPaletteFade:
+  J: 0x202f0a8
+sub_80A50C8:
+  J: 0x80a12c0
+#---------------#
+
+#-----------------#
+#  In game Menu   #
+#-----------------#
+# Start Menu
+sub_80712B4:
+  J: 0x806e5f4
+sStartMenuCursorPos:
+  J: 0x202e64c
+sNumStartMenuActions:
+  J: 0x202e64d
+sCurrentStartMenuActions:
+  J: 0x202e64e
+#-----------------#
+
+#----------------#
+#   Party Menu   #
+#----------------#
+HandleDefaultPartyMenu:
+  J: 0x8086b4c
+CB2_PartyMenuMain:
+  J: 0x80681f4
+# Pokemon action menu
+sub_8089D94:
+  J: 0x8086c04
+HandleBattlePartyMenu:
+  J: 0x8091c90
+Task_HandlePopupMenuInput:
+  J: 0x8091f80
+# Pokemon switch
+sub_806D198:
+  J: 0x806a408
+HandlePartyMenuSwitchPokemonInput:
+  J: 0x8069dd4
+sPokeMenuCursorPos:
+  J: 0x202fcc4
+sPokeMenuOptionsNo:
+  J: 0x202fcc5
+sPokeMenuOptionsOrder:
+  J: 0x202fcc6
+SUB_808A060:
+  J: 0x8086ea8
+Task_PartyMenuPrintRun:
+  J: 0x806bb8c
+#----------------#
+
+#-------------------#
+#   Fishing Mode    #
+#-------------------#
+Task_Fishing:
+  J: 0x80575c8
+#-------------------#
+
+#---------------------#
+#   Pokemon renaming  #
+#---------------------#
+# 0xa
+BattleScript_TryNicknameCaughtMon:
+  J: 0x81aa97b
+sub_80B5AA0:
+  J: 0x80b10e0
+Task_HandleInput:
+  J: 0x80b1838
+# 0x7
+BattleScript_GiveCaughtMonEnd:
+  J: 0x81aa990
+# 0x6
+BattleScript_GotAwaySafely:
+  J: 0x81a98c1
+namingScreenDataPtr:
+  J: 0x83a3198
+
+#---------------------#
+
+#---------------------#
+#    Berry blending   #
+#---------------------#
+SUB_80501FC:
+  J: 0x804d378
+gUnknown_08216303:
+  J: 0x81ec313
+gBerryBlenderData:
+  J: 0x3004784
+#---------------------#
+
+#-----------#
+#   Feebas  #
+#-----------#
+# Waterfall
+sub_8086F64:
+  J: 0x8083e20
+# Surf
+sub_8088954:
+  J: 0x8085804
+#-----------#
+
+#---------------------#
+#    Starters Hoenn   #
+#---------------------#
+Task_StarterChoose2:
+  J: 0x81050f8
+BattleBeginFirstTurn:
+  J: 0x800ee0c
+#---------------------#
+
+#---------------------#
+#    Puzzle Solver    #
+#---------------------#
+S_UseDiveUnderwater:
+  J: ~
+Task_Dive:
+  J: ~
+#---------------------#
+
+#----------------#
+#    Listeners   #
+#----------------#
+# 0x8
+S_RepelWoreOff:
+  J: 0x8195926
+gEggHatchData:
+  J: 0x300474c
+CB2_EggHatch_1:
+  J: 0x804022d
+# Poison faint 0x5
+gUnknown_081A14B8:
+  J: 0x8180bf5
+# 0x8
+EventScript_StartTrainerBattle:
+  J: 0x817f41c
+# 0x4
+EventScript_DoTrainerBattle:
+  J: 0x817f503
+#----------------#
+
+#-----------------#
+#      Safari     #
+#-----------------#
+Route121_SafariZoneEntrance_EventScript_15C383:
+  J: 0x8170911
+Route121_SafariZoneEntrance_EventScript_15C3B3:
+  J: 0x8170941
+Route121_SafariZoneEntrance_EventScript_15C333:
+  J: 0x81708c1
+SUB_810B674:
+  J: 0x810661c
+gUnknown_02039248:
+  J: 0x2038f40
+#-----------------#
+
+# Ununsed symbols that were conflicting with currently used symbols
+# We set them to 0x0 to 'get them out of our way' and correctly target the desired symbol
+LilycoveCity_House4_Text_18BEE8:
+  J: 0x0
+gTVRecentHappeningsText3:
+  J: 0x0
+Route116_Text_170921:
+  J: 0x0
+Route116_Text_17094D:
+  J: 0x0

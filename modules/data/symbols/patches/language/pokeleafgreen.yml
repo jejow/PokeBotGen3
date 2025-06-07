@@ -1,0 +1,778 @@
+---
+#--------------------------------#
+#    Overworld / Util Symbols    #
+#--------------------------------#
+CB2_OVERWORLD:
+  D: 0x80565d4
+  F: 0x8056694
+  I: 0x80565c0
+  J: 0x8055e74
+  S: 0x80566a8
+Task_YesNoMenu_HandleInput:
+  D: 0x809cf0c
+  F: 0x809cfcc
+  I: 0x809cef8
+  J: 0x809c85c
+  S: 0x809cfe0
+Task_FlyIntoMap:
+  D: 0x8084330
+  F: 0x80c5154
+  I: 0x80c5074
+  J: 0x80c60c0
+  S: 0x80c515c
+Task_ExitDoor:
+  D: 0x807def4
+  F: 0x807dfb4
+  I: 0x807dee0
+  J: 0x807d6c0
+  S: 0x807dfc8
+WaitForAorBPress:
+  D: 0x806b858
+  F: 0x806b918
+  I: 0x806b844
+  J: 0x806b158
+  S: 0x806b92c
+EventScript_UseStrength:
+  D: 0x81c1bc4
+  F: 0x81bcae4
+  I: 0x81bb76b
+  J: 0x81a48f0
+  S: 0x81bde2e
+PalletTown_PlayersHouse_1F_EventScript_MomHeal:
+  D: 0x8168b91
+  F: 0x8168c4d
+  I: 0x8168bd1
+  J: 0x817bcd8
+  S: 0x8168cbd
+#-------------------------------#
+
+#--------------------#
+#    Map Symbols     #
+#--------------------#
+gMapGroups:
+  D: 0x83525ac
+  F: 0x834cad8
+  I: 0x834b768
+  J: 0x8316738
+  S: 0x834de50
+sMapNames:
+  D: 0x83f1340
+  F: 0x83ea0a0
+  I: 0x83e8da0
+  J: 0x83b86a4
+  S: 0x83ebdb8
+gWildMonHeaders:
+  D: 0x83c9940
+  F: 0x83c3e6c
+  I: 0x83c2afc
+  J: 0x83909a4
+  S: 0x83c51e4
+gSaveBlock1Ptr:
+  D: 0x3004f58
+  F: 0x3004f58
+  I: 0x3004f58
+  J: 0x3005048
+  S: 0x3004f58
+gSaveBlock2Ptr:
+  D: 0x3004f5c
+  F: 0x3004f5c
+  I: 0x3004f5c
+  J: 0x300504c
+  S: 0x3004f5c
+CB2_RegionMap:
+  D: 0x80c0a58
+  F: 0x80c0b18
+  I: 0x80c0a38
+  J: 0x80c1a6c
+  S: 0x80c0b20
+gMapHeader:
+  J: 0x2036d30
+gObjectEvents:
+  J: 0x2036d6c
+gPlayerAvatar:
+  J: 0x2036fac
+gPlayerPartyCount:
+  J: 0x2023f89
+gPlayerParty:
+  J: 0x20241e4
+sMapCursor:
+  J: 0x203995c
+#----------------#
+
+#--------------------#
+#  Battling Symbols  #
+#--------------------#
+CB2_OVERWORLDBASIC:
+  D: 0x80565c8
+  F: 0x8056688
+  I: ~ # No need mapping
+  J: 0x8055e68
+  S: 0x805669c
+CB2_INITBATTLE:
+  D: 0x800fd20
+  F: 0x800fd0c
+  I: 0x800fd20
+  J: 0x800f758
+  S: 0x800fd0c
+CB2_HANDLESTARTBATTLE:
+  D: 0x801048c
+  F: 0x8010478
+  I: 0x801048c
+  J: 0x800fec4
+  S: 0x8010478
+CB2_RETURNTOFIELD:
+  D: 0x80567fc
+  F: 0x80568bc
+  I: 0x80567e8
+  J: 0x805609c
+  S: 0x80568d0
+gMain:
+  D: 0x3003040
+  F: 0x3003040
+  I: 0x3003040
+  J: 0x3003130
+  S: 0x3003040
+gBattleMainFunc:
+  D: 0x3004ed4
+  F: 0x3004ed4
+  I: 0x3004ed4
+  J: 0x3004fc4
+  S: 0x3004ed4
+gBattlerControllerFuncs:
+  D: 0x3004f30
+  F: 0x3004f30
+  I: 0x3004f30
+  J: 0x3005020
+  S: 0x3004f30
+GTASKS:
+  D: 0x3004fe0
+  F: 0x3004fe0
+  I: 0x3004fe0
+  J: 0x30050d0
+  S: 0x3004fe0
+BattleMainCB1:
+  D: 0x8012368
+  F: 0x8012354
+  I: 0x8012368
+  J: 0x8011c34
+  S: 0x8012354
+BattleMainCB2:
+  D: 0x8011084
+  F: 0x8011070
+  I: 0x8011084
+  J: 0x80109c0
+  S: 0x8011070
+HandleTurnActionSelectionState:
+  D: 0x8013fc4
+  F: 0x8013fb0
+  I: 0x8013fc4
+  J: 0x8013860
+  S: 0x8013fb0
+HandleInputChooseAction:
+  D:
+    - 0x802e3d0
+    - 0x80dd7a0
+  F:
+    - 0x802e3a8
+    - 0x80dd860
+  I:
+    - 0x802e3bc
+    - 0x80dd7a0
+  J:
+    - 0x802dc14
+    - 0x80de564
+  S:
+    - 0x802e3bc
+    - 0x80dd888
+HandleInputChooseMove:
+  D: 0x802e9a8
+  F: 0x802e980
+  I: 0x802e994
+  J: 0x802e1ec
+  S: 0x802e994
+Task_DuckBGMForPokemonCry:
+  D: 0x8072198
+  F: 0x8072258
+  I: 0x8072184
+  J: 0x80719d8
+  S: 0x807226c
+BattleScript_HandleFaintedMon:
+  D: 0x81dc944
+  F: 0x81d6e80
+  I: 0x81d5b18
+  J: 0x81bc635
+  S: 0x81d81e0
+Task_BattleStart:
+  D: 0x807f558
+  F: 0x807f618
+  I: 0x807f544
+  J: 0x807ed1c
+  S: 0x807f62c
+Task_EvolutionScene:
+  D: 0x80cea50
+  F: 0x80ceb10
+  I: 0x80cea30
+  J: 0x80cf9cc
+  S: 0x80ceb18
+Task_InputHandler_SelectOrForgetMove:
+  D: 0x8139448
+  F: 0x8139504
+  I: 0x8139488
+  J: 0x8139b80
+  S: 0x8139574
+Task_HandleChooseMonInput:
+  D: 0x811fb34
+  F: 0x811fbf4
+  I: 0x811fb78
+  J: 0x81202f0
+  S: 0x811fc60
+Task_RushInjuredPokemonToCenter:
+  D: 0x807f394
+  F: 0x807f454
+  I: 0x807f380
+  J: 0x807eb58
+  S: 0x807f468
+EventScript_AfterWhiteOutHeal:
+  D: 0x81abba5
+  F: 0x81a779c
+  I: 0x81a65fb
+  J: 0x819631a
+  S: 0x81a883c
+BattleScript_AskToLearnMove:
+  D: 0x81dcc8d
+  F: 0x81d71c9
+  I: 0x81d5e61
+  J: 0x81bc9b3
+  S: 0x81d8529
+# BattleScript_AskToLearnMove + 2d
+BattleScript_ForgotAndLearnedNewMove:
+  D: 0x81dccba
+  F: 0x81d71f6
+  I: 0x81d5e8e
+  J: 0x81bc9e0
+  S: 0x81d8556
+HandleEndTurn_FinishBattle:
+  D: 0x8015894
+  F: 0x8015880
+  I: 0x8015894
+  J: 0x8015128
+  S: 0x8015880
+sMoveSelectionCursorPos:
+  J: 0x203b0e1
+gMoveSelectionCursor:
+  J: 0x2023f5c
+# gBattleWeather + 92
+gBattleOutcome:
+  J: 0x2023dea
+gActionSelectionCursor:
+  J: 0x2023f58
+gEnemyParty:
+  J: 0x2023f8c
+gBattlescriptCurrInstr:
+  J: 0x2023cd4
+gBattleTypeFlags:
+  J: 0x2022aac
+gSideTimers:
+  J: 0x2023d44
+gBattlerPartyIndexes:
+  J: 0x2023b2e
+gBattlePartyCurrentOrder:
+  J: 0x203b050
+gBattlersCount:
+  J: 0x2023b2c
+gBattleMons:
+  J: 0x2023b44
+gStatuses3:
+  J: 0x2023d5c
+gDisableStructs:
+  J: 0x2023d6c
+gAbsentBattlerFlags:
+  J: 0x2023cd0
+gBattleResults:
+  D: 0x3004ee0
+  F: 0x3004ee0
+  I: 0x3004ee0
+  J: 0x3004fd0
+  S: 0x3004ee0
+gBattleWeather:
+  J: 0x2023e7c
+sTextPrinters:
+  J: 0x2020030
+gNumSafariBalls:
+  J: 0x203990c
+gSafariZoneStepCounter:
+  J: 0x203990e
+#--------------------#
+
+#----------------#
+#  Daycare Mode  #
+#----------------#
+EventScript_EggHatch:
+  D: 0x81c2fae
+  F: 0x81bdeed
+  I: 0x81bca9c
+  J: 0x81a59a0
+  S: 0x81bf14b
+
+# EggHatch party identification
+gSpecialVar_0x8004:
+  J: 0x2036ff4
+
+Task_Fanfare:
+  D: 0x8071c20
+  F: 0x8071ce0
+  I: 0x8071c0c
+  J: 0x8071460
+  S: 0x8071cf4
+#----------------#
+
+#---------------------------#
+#  SSR/SRA/SGR Reset Modes  #
+#---------------------------#
+Task_EndQuestLog:
+  D: 0x8112148
+  F: 0x8112208
+  I: 0x811218c
+  J: 0x8112bcc
+  S: 0x8112274
+Task_DrawFieldMessageBox:
+  D: 0x8069360
+  F: 0x8069420
+  I: 0x806934c
+  J: 0x8068c30
+  S: 0x8069434
+Task_MultichoiceMenu_HandleInput:
+  D: 0x809cd50
+  F: 0x809ce10
+  I: 0x809cd3c
+  J: 0x809c6a0
+  S: 0x809ce24
+gRngValue:
+  D: 0x3004f50
+  F: 0x3004f50
+  I: 0x3004f50
+  J: 0x3005040
+  S: 0x3004f50
+Std_MsgboxDefault:
+  D: 0x81a7ae4
+  F: 0x81a3995
+  I: 0x81a27cd
+  J: 0x8192d81
+  S: 0x81a4946
+#---------------------------#
+
+#-------------------#
+#   Fishing Mode    #
+#-------------------#
+Task_Fishing:
+  D: ~ # Doesn't need mapping
+  F: 0x805d3c4
+  I: 0x805d2f0
+  J: 0x805cbc0
+  S: 0x805d3d8
+#-------------------#
+
+#-------------------------#
+#   Puzzle Solver Mode    #
+#-------------------------#
+# Tanoby Puzzle
+SevenIsland_SevaultCanyon_TanobyKey_EventScript_PuzzleSolved:
+  D: 0x8164ed0
+  F: 0x8164f94
+  I: 0x8164f10
+  J: 0x816eea7
+  S: 0x8164ffc
+#-------------------------#
+
+#-----------------#
+#    Main Menu    #
+#-----------------#
+CB2_InitCopyrightScreenAfterBootup:
+  D: 0x80eca1c
+  F: 0x80ecadc
+  I: 0x80eca1c
+  J: 0x80ed6f4
+  S: 0x80ecb04
+CB2_TitleScreenRun:
+  D: 0x8078b00
+  F: 0x8078bc0
+  I: 0x8078aec
+  J: 0x8078334
+  S: 0x8078bd4
+CB2_Intro:
+  D: 0x80ecbd0
+  F: 0x80ecc90
+  I: 0x80ecbd0
+  J: 0x80ed8a8
+  S: 0x80eccb8
+CB2_INITTITLESCREEN:
+  D: 0x8078878
+  F: 0x8078938
+  I: 0x8078864
+  J: 0x80780ac
+  S: 0x807894c
+CB2_INITMAINMENU:
+  D: 0x800c280
+  F: 0x800c26c
+  I: 0x800c280
+  J: 0x800bce0
+  S: 0x800c26c
+CB2_MAINMENU:
+  D: 0x800c254
+  F: 0x800c240
+  I: 0x800c254
+  J: 0x800bcb4
+  S: 0x800c240
+CB2_RETURNTOFIELDLOCAL:
+  D: 0x8056828
+  F: 0x80568e8
+  I: 0x8056814
+  J: 0x80560c8
+  S: 0x80568fc
+MAINCB2:
+  D: 0x80cd640
+  F: 0x803cecc
+  I: 0x80cd520
+  J: 0x80ce4ec
+  S: 0x80cd608
+#-----------------#
+
+#-----------------#
+#  In game Menu   #
+#-----------------#
+Task_StartMenuHandleInput:
+  D: 0x806f154
+  F: 0x806f214
+  I: 0x806f140
+  J: 0x806e9e4
+  S: 0x806f228
+sMenu:
+  J: 0x203ad5c
+sStartMenuCursorPos:
+  J: 0x2037028
+sNumStartMenuItems:
+  J: 0x2037029
+sStartMenuOrder:
+  J: 0x203702a
+#-----------------#
+
+#--------------#
+#   Bag Menu   #
+#--------------#
+CB2_BAGMENURUN:
+  D: 0x8107f34
+  F: 0x8107ff4
+  I: 0x8107f78
+  J: 0x81089bc
+  S: 0x8108060
+Task_BagMenu_HandleInput:
+  D: 0x8108f60
+  F: 0x8109020
+  I: 0x8108fa4
+  J: 0x81099dc
+  S: 0x8133d44
+Task_FieldItemContextMenuHandleInput:
+  D: 0x8109c14
+  F: 0x8109cd4
+  I: 0x8109c58
+  J: 0x810a6b8
+  S: 0x8109d40
+gBagMenuState:
+  J: 0x203ac74
+gPaletteFade:
+  J: 0x20379ec
+#---------------#
+
+#----------------#
+#   Party Menu   #
+#----------------#
+CB2_UPDATEPARTYMENU:
+  D: 0x811ebac
+  F: 0x811ec6c
+  I: 0x811ebf0
+  J: 0x811f380
+  S: 0x811ecd8
+Task_PrintAndWaitForText:
+  D: 0x8120334
+  F: 0x81203f4
+  I: 0x8123c58
+  J: 0x8120af0
+  S: 0x8120460
+Task_HandleInput:
+  D: 0x809f328
+  F: 0x809f3e8
+  I: 0x809f310
+  J: 0x809eca4
+  S: 0x809f3f8
+Task_HandleSelectionMenuInput:
+  D: 0x8122c6c
+  F: 0x8122d28
+  I: 0x8122cac
+  J: 0x8123410
+  S: 0x8122d98
+Task_SlideSelectedSlotsOnscreen:
+  D: 0x8123398
+  F: 0x8123454
+  I: 0x81233d8
+  J: 0x8123b3c
+  S: 0x81234c4
+gPartyMenu:
+  J: 0x203b014
+sPartyMenuInternal:
+  J: 0x203b010
+#----------------#
+
+#-------------------------#
+#    PC Menu / Storage    #
+#-------------------------#
+Task_PCMainMenu:
+  D: 0x808c474
+  F: 0x808c534
+  I: 0x808c460
+  J: 0x808bdac
+  S: 0x808c548
+Task_PokeStorageMain:
+  D: 0x808d3a8
+  F: 0x808d468
+  I: 0x808d394
+  J: 0x808cccc
+  S: 0x808d47c
+gPokemonStoragePtr:
+  D: 0x3004f60
+  F: 0x3004f60
+  I: 0x3004f60
+  J: 0x3005050
+  S: 0x3004f60
+#-------------------------#
+
+#--------------#
+#   Listeners  #
+#--------------#
+CB2_EggHatch_0:
+  D: 0x8046f48
+  F: 0x8047008
+  I: 0x8046f34
+  J: 0x80465d0
+  S: 0x804701c
+CB2_EggHatch_1:
+  D: 0x804723c
+  F: 0x80472fc
+  I: 0x8047228
+  J: 0x80468c0
+  S: 0x8047310
+EventScript_RepelWoreOff:
+  D: 0x81c368c
+  F: 0x81be5b0
+  I: 0x81bd0f7
+  J: 0x81a5d60
+  S: 0x81bf7d0
+EventScript_DoTrainerBattleFromApproach:
+  D: 0x81a7b44
+  F: 0x81a39f5
+  I: 0x81a282d
+  J: 0x8192dd2
+  S: 0x81a49a6
+EventScript_DoTrainerBattle:
+  D: 0x81a7c5d
+  F: 0x81a3b0e
+  I: 0x81a2946
+  J: 0x8192ee5
+  S: 0x81a4abf
+EventScript_FieldPoison:
+  D: 0x81abc0b
+  F: 0x81a7802
+  I: 0x81a6661
+  J: 0x819637f
+  S: 0x81a88a2
+#---------------#
+
+#---------------------#
+#   Pokemon renaming  #
+#---------------------#
+# 0xa
+BattleScript_CaughtPokemonSkipNewDex:
+  D: 0x81ddcd7
+  F: 0x81d8213
+  I: 0x81d6eab
+  J: 0x81bd9fb
+  S: 0x81d9573
+CB2_NamingScreen:
+  D: 0x809fc38
+  F: 0x809fcf8
+  I: 0x809fc18
+  J: 0x809fa24
+  S: 0x809fd00
+# 0x6
+BattleScript_CaughtPokemonDone:
+  D: 0x81ddcf5
+  F: 0x81d8231
+  I: 0x81d6ec9
+  J: 0x81bda19
+  S: 0x81d9591
+# 0x6
+BattleScript_GotAwaySafely:
+  D: 0x81dcb88
+  F: 0x81d70c4
+  I: 0x81d5d5c
+  J: 0x81bc8ae
+  S: 0x81d842b
+Task_NamingScreen:
+  D: 0x809de40
+  F: 0x809df00
+  I: 0x809de2c
+  J: 0x809d794
+  S: 0x809df14
+sNamingScreen:
+  J: 0x20398d8
+gSprites:
+  J: 0x20205bc
+#---------------------#
+
+#-----------------#
+#   Safari Mode   #
+#-----------------#
+# 0xa
+FuchsiaCity_SafariZone_Entrance_EventScript_AskEnterSafariZone:
+  D: 0x816d2d9
+  F: 0x816d395
+  I: 0x816d319
+  J: 0x8186a0e
+  S: 0x816d405
+# 0x28
+FuchsiaCity_SafariZone_Entrance_EventScript_TryEnterSafariZone:
+  D: 0x816d312
+  F: 0x816d3ce
+  I: 0x816d352
+  J: 0x8186a47
+  S: 0x816d43e
+# 0x1
+FuchsiaCity_SafariZone_Entrance_EventScript_ExitWarpIn:
+  D: 0x816d244
+  F: 0x816d300
+  I: 0x816d284
+  J: 0x8186979
+  S: 0x816d370
+#-----------------#
+
+# FR/LG Safari scripts are annoying for Safari Mode
+FuchsiaCity_SafariZone_Entrance_EventScript_ExitEarly:
+  D: 0x0
+FuchsiaCity_SafariZone_Entrance_EventScript_ReturnToSafariZone:
+  D: 0x0
+  I: 0x0
+FuchsiaCity_SafariZone_Entrance_EventScript_EntryTriggerMid:
+  D: 0x0
+FuchsiaCity_SafariZone_Entrance_Movement_ApproachCounter:
+  D: 0x0
+FuchsiaCity_SafariZone_Entrance_Movement_Exit2:
+  D: 0x0
+FuchsiaCity_SafariZone_Entrance_Movement_ReEnter:
+  D: 0x0
+FuchsiaCity_SafariZone_Entrance_Movement_Exit:
+  D: 0x0
+FuchsiaCity_SafariZone_Entrance_EventScript_EntryTriggerLeft:
+  D: 0x0
+  I: 0x0
+FuchsiaCity_SafariZone_Entrance_EventScript_EntryTriggerRight:
+  D: 0x0
+  F: 0x0
+  I: 0x0
+  S: 0x0
+FuchsiaCity_SafariZone_Entrance_EventScript_EnterSafariZoneRight:
+  F: 0x0
+  S: 0x0
+FuchsiaCity_SafariZone_Entrance_EventScript_ForcePlayerBack:
+  S: 0x0
+FuchsiaCity_SafariZone_Entrance_EventScript_NotEnoughMoney:
+  S: 0x0
+FuchsiaCity_SafariZone_Entrance_Movement_EnterSafariZoneRight:
+  S: 0x0
+FuchsiaCity_SafariZone_Entrance_EventScript_ExplainSafariZone:
+  S: 0x0
+FuchsiaCity_SafariZone_Entrance_Movement_EnterSafariZoneMid:
+  S: 0x0
+FuchsiaCity_SafariZone_Entrance_Movement_ForceBack:
+  S: 0x0
+Route15_Text_RouteSign:
+  J: 0x0
+Route15_Text_YazminDefeat:
+  J: 0x0
+Route15_Text_MyaIntro:
+  J: 0x0
+Route15_Text_MyaDefeat:
+  J: 0x0
+
+# Ununsed symbols that were conflicting with currently used symbols
+# We set them to 0x0 to 'get them out of our way' and correctly target the desired symbol
+EventScript_CutTree:
+  F: 0x0
+CableClub_Text_YouMayBattleHere:
+  I: 0x0
+Text_DontBeLikeThat:
+  S: 0x0
+TrackStop_1:
+  D: 0x0
+TrackStop_2:
+  D: 0x0
+TrackStop_Done:
+  D: 0x0
+TrackStop_3:
+  D: 0x0
+ChnVolSetAsm:
+  D: 0x0
+Route21_North_EventScript_IanRematch:
+  D: 0x0
+Route23_EventScript_MissingBoulderBadge:
+  F: 0x0
+EventScript_SetEnteringCyclingRoad:
+  F: 0x0
+Route23_EventScript_MissingBadge:
+  F: 0x0
+EventScript_PkmnCenterNurse_PlayerWaitingInUionRoom:
+  I: 0x0
+EventScript_Open9FDoor3:
+  S: 0x0
+CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex:
+  J: 0x0
+CableClub_Text_PleaseVisitAgain:
+  J: 0x0
+CableClub_Text_YouHaveAMonThatCantBeTaken:
+  J: 0x0
+Trade_Text_WhatThatsNoMon:
+  J: 0x0
+NavelRock_Summit_EventScript_HideHoOh:
+  F: 0x0
+PokemonMansion_EventScript_DontPressSwitch:
+  D: 0x0
+SixIsland_RuinValley_EventScript_IgnoreDottedHoleDoor:
+  D: 0x0
+SixIsland_RuinValley_EventScript_DottedHoleDoorOpen:
+  D: 0x0
+PalletTown_PlayersHouse_1F_EventScript_TVScreen:
+  F: 0x0
+PalletTown_PlayersHouse_1F_EventScript_Mom:
+  I: 0x0
+PalletTown_PlayersHouse_1F_MapScripts:
+  I: 0x0
+SevenIsland_TanobyRuins_MapScripts:
+  I: 0x0
+SevenIsland_SevaultCanyon_EventScript_RouteSign:
+  I: 0x0
+SevenIsland_SevaultCanyon_MapScripts:
+  I: 0x0
+PalletTown_PlayersHouse_2F_EventScript_PC:
+  S: 0x0
+
+# Unused
+CB2_CONTINUESAVEDGAME:
+  D: 0x8056958
+  F: ~
+  I: ~
+  J: ~
+  S: ~
+CB2_RETURNTOFIELDCONTINUESCRIPTPLAYMAPMUSIC:
+  D: 0x80568e4
+  F: ~
+  I: ~
+  J: ~
+  S: ~
