@@ -37,10 +37,6 @@ Core functionality:
 - [mGBA](https://github.com/mgba-emu/mgba)
 - [libmgba-py](https://github.com/hanzi/libmgba-py/)
 
-Other awesome PokéBot projects:
-
-- [PokéBot NDS](https://github.com/wyanido/pokebot-nds/)
-
 Decompiled symbol tables and other various data from the following projects:
 
 - [Pokémon Emerald decompilation](https://github.com/pret/pokeemerald) ([symbols](https://github.com/pret/pokeemerald/tree/symbols))
