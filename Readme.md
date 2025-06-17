@@ -1,4 +1,4 @@
-# PokéBot V1
+# PokéBot Gen 3
 [![Wiki](wiki/images/badge_wiki.svg)](wiki/Readme.md) [![Python 3.12](wiki/images/badge_python.svg)](https://www.python.org/downloads/release/python-3132/) 
 
 [![Web Pokebot](🗾)](https://tegraf-fp-pokebot.vercel.app/)
