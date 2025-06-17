@@ -12,8 +12,6 @@
 
 # ✨ Preamble
 
-You are welcome to use or stream the bot in any way you want, including streaming your own 24/7 Prof. Oak challenge streams.
-
 The intent of this bot is not to _cheat_ for shinies or complete the game as fast as possible, but instead to transform generation 3 Pokémon games into somewhat of an idle game, stacking up millions of encounters searching for that one encounter, or completing an absurd challenge.
 
 The bot is frame perfect and can _technically_ cheat by reading data from any point in memory and manipulating RNG. By default, it will attempt to perform actions as if a human were playing to make gameplay as representative as possible, some examples:
