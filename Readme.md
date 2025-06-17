@@ -27,6 +27,10 @@ The bot is frame perfect and can _technically_ cheat by reading data from any po
 |:----------------------------------------:|:-----------------------------------------:|:------------------------------------:|
 | ![image](wiki/images/main_interface.png) | ![image](wiki/images/load_save_state.png) | ![image](wiki/images/debug_mode.png) |
 
+| Shiny encounter GIFs            | 
+|---------------------------------|
+| ![image](wiki/images/shiny.gif) |
+
 # ❤ Attributions
 
 Core functionality:
